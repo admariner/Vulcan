@@ -14,7 +14,7 @@ $spacing: 20px;
 }
 .likert-row-heading{
   display: table-cell;
-  padding: $spacing/4;
+  padding: calc($spacing / 4);
 }
 .likert-heading{
   font-weight: bold;
@@ -27,7 +27,7 @@ $spacing: 20px;
 .likert-row-cell{
   display: table-cell;
   text-align: center;
-  padding: $spacing/4;
+  padding: calc($spacing / 4);
   .form-check{
     display: inline;
     padding: 0;

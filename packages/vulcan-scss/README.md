@@ -10,7 +10,7 @@ This is a Sass build plugin for Meteor. It compiles Sass files with node-sass.
 Install using Meteor's package management system:
 
 ```bash
-> meteor add fourseven:scss
+> meteor add vulcan:scss
 ```
 
 If you want to use it for your package, add it in your package control file's
@@ -19,7 +19,7 @@ If you want to use it for your package, add it in your package control file's
 ```javascript
 Package.onUse(function (api) {
   ...
-  api.use('fourseven:scss');
+  api.use('vulcan:scss');
   ...
 });
 ```
@@ -27,7 +27,7 @@ Package.onUse(function (api) {
 ## Compatibility
 <table>
 <thead>
-<tr><th>Meteor Version</th><th>Recommended fourseven:scss version</th></tr>
+<tr><th>Meteor Version</th><th>Recommended vulcan:scss version</th></tr>
 </thead>
 <tbody>
 <tr><td>1.0 - 1.1</td><td>3.2.0</td></tr>
@@ -39,7 +39,7 @@ Package.onUse(function (api) {
 </tbody>
 </table>
 
-Since `meteor 1.4.1+` (`fourseven:scss 3.9.0+`), we do not have prebuild binaries anymore. You are required to set up the [required toolchain](https://github.com/nodejs/node-gyp) yourselves.
+Since `meteor 1.4.1+` (`vulcan:scss 3.9.0+`), we do not have prebuild binaries anymore. You are required to set up the [required toolchain](https://github.com/nodejs/node-gyp) yourselves.
 
 ## Usage
 Without any additional configuration after installation, this package automatically finds all `.scss` and `.sass` files in your project, compiles them with [node-sass](https://github.com/sass/node-sass), and includes the resulting CSS in the application bundle that Meteor sends to the client. The files can be anywhere in your project.
